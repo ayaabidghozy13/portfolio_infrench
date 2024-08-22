@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/stadiums.png",
+    image: "/work/speedy-bites.png",
     category: "Full Stack",
     name: "Stadiums",
     description:
@@ -15,7 +15,7 @@ const projectData = [
     github: "https://github.com/ayaabidghozy13",
   },
   {
-    image: "/work/speedy-bites.png",
+    image: "/work/stadiums.png",
     category: "Full Stack",
     name: "Speedy Bites",
     description:

@@ -18,22 +18,22 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/stadiums.png",
+    image: "/work/speedy-bites.png",
     category: "Full Stack",
     name: "Stadiums",
     description:
-      "Remote stadium control using HTML, CSS, JavaScript, and Firebase. Part of a larger IoT and mobile application project. ",
+      "Remote stadium control using HTML, CSS, JavaScript, and Firebase. Part of a larger IoT and mobile application project.",
     link: "/",
-    github: "/",
+    github: "https://github.com/ayaabidghozy13",
   },
   {
-    image: "/work/speedy-bites.png",
+    image: "/work/stadiums.png",
     category: "Full Stack",
-    name: " Speedy Bites",
+    name: "Speedy Bites",
     description:
       "Online restaurant reservation system using React, MongoDB, and Node.js.",
     link: "/",
-    github: "/",
+    github: "https://github.com/ayaabidghozy13",
   },
 
   {
