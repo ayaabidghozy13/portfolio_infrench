@@ -10,7 +10,7 @@ const projectData = [
     category: "Full Stack",
     name: "Stadiums",
     description:
-      "Remote stadium control using HTML, CSS, JavaScript, and Firebase. Part of a larger IoT and mobile application project.",
+      "Contrôle à distance de stade utilisant HTML, CSS, JavaScript et Firebase. Fait partie d'un projet IoT et d'application mobile plus large.",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
@@ -19,7 +19,7 @@ const projectData = [
     category: "Full Stack",
     name: "Speedy Bites",
     description:
-      "Online restaurant reservation system using React, MongoDB, and Node.js.",
+      "Système de réservation de restaurant en ligne utilisant React, MongoDB et Node.js..",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
@@ -28,7 +28,7 @@ const projectData = [
     category: "IA",
     name: "Flesk IA",
     description:
-      "Facial Recognition using HTML, CSS, JavaScript, React, TensorFlow, OpenCV, PyTorch, etc.",
+      "Reconnaissance faciale utilisant HTML, CSS, JavaScript, React, TensorFlow, OpenCV, PyTorch, etc.",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
@@ -36,24 +36,25 @@ const projectData = [
     image: "/work/palestine-mobile.png",
     category: "Mobile Applications",
     name: "Palestine Mobile Application",
-    description: "Developed using Java and XML with a theme around Palestine.",
+    description:
+      "Développée en utilisant Java et XML avec un thème centré sur la Palestine.",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
 ];
 
 const uniqueCategories = [
-  "all projects",
+  "Tous les projets",
   ...new Set(projectData.map((item) => item.category)),
 ];
 
 const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState("all projects");
+  const [selectedCategory, setSelectedCategory] = useState("Tous les projets");
 
   const filteredProjects = useMemo(
     () =>
       projectData.filter((project) => {
-        return selectedCategory === "all projects"
+        return selectedCategory === "Tous les projets"
           ? true
           : project.category === selectedCategory;
       }),
@@ -64,7 +65,7 @@ const Projects = () => {
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
-          My Projects
+          Mes Projets
         </h2>
         <Tabs
           defaultValue={selectedCategory}

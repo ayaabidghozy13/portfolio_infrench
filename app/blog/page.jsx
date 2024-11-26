@@ -8,24 +8,24 @@ const blogData = [
   {
     id: 1,
     imagePath: "/blog/back.webp",
-    altText: "Backend Development Illustration",
-    name: "Backend Development",
+    altText: "Illustration du développement Backend",
+    name: "Développement Backend",
     category: "Backend",
     description:
-      "Explore the intricacies of server-side development and understand how backend systems work.",
+      "Découvrez les bases du développement côté serveur et comprenez le fonctionnement des systèmes backend.",
     link: "https://www.linkedin.com/in/aya-abid-ba4139285/",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Backend", "Programming"],
+    tags: ["Development", "Backend", "Programmation"],
   },
   {
     id: 2,
     imagePath: "/blog/front.webp",
-    altText: "Frontend Development Illustration",
-    name: "Frontend Development",
+    altText: "Illustration du développement Frontend",
+    name: "Développement Frontend",
     category: "Frontend",
     description:
-      "Dive into the world of frontend development to create engaging and interactive user experiences on the web.",
+      "Plongez dans le monde du développement Frontend pour créer des expériences utilisateur engageantes et interactives sur le web.",
     link: "/blog/frontend",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
@@ -34,15 +34,15 @@ const blogData = [
   {
     id: 3,
     imagePath: "/blog/full.png",
-    altText: "Full Stack Development Illustration",
-    name: "Full Stack Development",
+    altText: "Illustration du développement Full Stack",
+    name: "Développement Full Stack",
     category: "Full Stack",
     description:
-      "Master both the frontend and backend of web development to build comprehensive and efficient web applications.",
+      "Maîtrisez le frontend et le backend du développement web pour créer des applications web complètes et performantes.",
     link: "/blog/fullstack",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", "Web Applications"],
+    tags: ["Développement ", "Full Stack", "Applications web"],
   },
   {
     id: 4,
@@ -51,26 +51,27 @@ const blogData = [
     name: "MERN STACK",
     category: "Full Stack",
     description:
-      "Mastering the MERN Stack Essentials for Developing Scalable and Dynamic Web Applications",
+      "Maîtrisez les bases essentielles du MERN Stack pour développer des applications web évolutives et dynamiques.",
     link: "https://www.linkedin.com/in/aya-abid-ba4139285/",
     createdAt: "2024-04-23",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", "Web Applications"],
+    tags: ["Développement ", "Full Stack", "Web Applications"],
   },
 ];
 
 const uniqueCategories = [
-  "all articles",
+  "tous les  articles",
   ...new Set(blogData.map((item) => item.category)),
 ];
 
 const MyBlog = () => {
-  const [selectedCategory, setSelectedCategory] = useState("all articles");
+  const [selectedCategory, setSelectedCategory] =
+    useState("tous les  articles");
 
   const filteredBlogData = useMemo(
     () =>
       blogData.filter((blog) => {
-        return selectedCategory === "all articles"
+        return selectedCategory === "tous les  articles"
           ? true
           : blog.category === selectedCategory;
       }),

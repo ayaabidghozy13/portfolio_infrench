@@ -13,13 +13,13 @@ const Contact = () => {
           <div className="flex flex-col justify-center">
             <div className="flex items-center gap-x-4 text-primary text-lg mb-4 ">
               <span className="w-[30px] h-[2px] bg-primary "></span>
-              Say Hello 👋
+              Dites Bonjour 👋
             </div>
-            <h1 className="h1 max-w-md mb-8 ">let's work together.</h1>
+            <h1 className="h1 max-w-md mb-8 ">Travaillons ensemble !</h1>
             <p className="subtitle max-w-[400px] ">
-              Transform ideas into reality. Partner with us for innovative
-              solutions tailored to your goals. Let's achieve greatness
-              together.
+              Transformez vos idées en réalité. Collaborez avec nous pour des
+              solutions innovantes adaptées à vos objectifs. Atteignons
+              l'excellence ensemble.
             </p>
           </div>
           {/* illustration */}

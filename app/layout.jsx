@@ -11,7 +11,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   title: "2a.com",
-  description: "portfolio of Aya abid ghozy",
+  description: " Portfolio d'Aya Abid Ghozy",
 };
 
 export default function RootLayout({ children }) {

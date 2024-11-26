@@ -23,20 +23,20 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left ">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
-              Software developer
+              Développeur IoT et logiciel
             </div>
-            <h1 class="h1 mb-4">Hello, My Name is Aya Abid Ghozy</h1>
+            <h1 class="h1 mb-4">Hello, je m'appelle Aya Abid Ghozy</h1>
             <p class="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Passionate IoT Engineering student with hands-on experience in IoT
-              platforms and a deep understanding of HTML, CSS, JavaScript, and
-              React. Committed to applying my skills to drive innovation and
-              create impactful solutions.
+              Étudiante passionnée en ingénierie IoT avec une expérience
+              pratique sur les plateformes IoT et une solide maîtrise de HTML,
+              CSS, JavaScript et React. Déterminée à utiliser mes compétences
+              pour innover et créer des solutions impactantes.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 ">
               <Link href="/contact">
                 <Button className="hidden md:inline-flex gap-x-2">
-                  Contact me <Send size={18} />
+                  Contactez-moi <Send size={18} />
                 </Button>
               </Link>
               <a
@@ -46,8 +46,7 @@ const Hero = () => {
                 className="hidden md:inline-flex w-full md:w-auto"
               >
                 <Button variant="secondary" className="gap-x-2">
-                  Download CV
-                  <Download size={18} />
+                  Télécharger le CV <Download size={18} />
                 </Button>
               </a>
             </div>

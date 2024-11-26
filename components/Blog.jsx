@@ -13,24 +13,24 @@ const blogData = [
   {
     id: 1,
     imagePath: "/blog/back.webp",
-    altText: "Backend Development Illustration",
-    name: "Backend Development",
+    altText: "Illustration du développement du backend ",
+    name: "Développement Backend",
     category: "Backend",
     description:
-      "Explore the intricacies of server-side development and understand how backend systems work.",
+      "Découvrez les bases du développement côté serveur et comprenez le fonctionnement des systèmes backend.",
     link: "https://www.linkedin.com/posts/deadlymind_understand-how-backend-system-work-part-1-activity-7186217629181751296-4Uld?utm_source=share&utm_medium=member_desktop",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Backend", "Programming"],
+    tags: ["Development", "Backend", "Programmation"],
   },
   {
     id: 2,
     imagePath: "/blog/front.webp",
-    altText: "Frontend Development Illustration",
-    name: "Frontend Development",
+    altText: "Illustration du développement Frontend",
+    name: " Development Frontend",
     category: "Frontend",
     description:
-      "Dive into the world of frontend development to create engaging and interactive user experiences on the web.", // Descriptive text about frontend development
+      "Plongez dans le développement Frontend pour créer des expériences utilisateur engageantes et interactives sur le web.", // Descriptive text about frontend development
     link: "/blog/frontend",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
@@ -39,15 +39,15 @@ const blogData = [
   {
     id: 3,
     imagePath: "/blog/full.png",
-    altText: "Full Stack Development Illustration",
-    name: "Full Stack Development",
+    altText: "Illustration du développement Full Stack",
+    name: " Development Full stack",
     category: "Full Stack",
     description:
-      "Master both the frontend and backend of web development to build comprehensive and efficient web applications.",
+      "Maîtrisez à la fois le frontend et le backend du développement web pour créer des applications web complètes et performantes.",
     link: "/blog/fullstack",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", "Web Applications"],
+    tags: ["Development", "Full Stack", " Applications Web"],
   },
   {
     id: 4,
@@ -56,11 +56,11 @@ const blogData = [
     name: "MERN STACK",
     category: "Full Stack",
     description:
-      "Mastering the MERN Stack Essentials for Developing Scalable and Dynamic Web Applications",
+      "Maîtrisez les bases essentielles du MERN Stack pour développer des applications web dynamiques et évolutives.",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7188400972086312960/",
     createdAt: "2024-04-23",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", "Web Applications"],
+    tags: ["Development", "Full Stack", " Applications web"],
   },
 ];
 

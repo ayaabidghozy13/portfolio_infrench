@@ -22,7 +22,7 @@ const projectData = [
     category: "Full Stack",
     name: "Stadiums",
     description:
-      "Remote stadium control using HTML, CSS, JavaScript, and Firebase. Part of a larger IoT and mobile application project.",
+      "Contrôle à distance d'un stade utilisant HTML, CSS, JavaScript et Firebase. Fait partie d'un projet plus large d'application IoT et mobile.",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
@@ -31,7 +31,7 @@ const projectData = [
     category: "Full Stack",
     name: "Speedy Bites",
     description:
-      "Online restaurant reservation system using React, MongoDB, and Node.js.",
+      "Système de réservation de restaurant en ligne utilisant React, MongoDB et Node.js..",
     link: "/",
     github: "https://github.com/ayaabidghozy13",
   },
@@ -41,15 +41,16 @@ const projectData = [
     category: "IA",
     name: "Flesk IA",
     description:
-      "Facial Recognition using HTML, CSS, JavaScript, React, TensorFlow, OpenCV, PyTorch, etc. ",
+      " Reconnaissance faciale utilisant HTML, CSS, JavaScript, React, TensorFlow, OpenCV, PyTorch, etc.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/palestine-mobile.png",
-    category: "Mobile Applications",
+    category: "Applications Mobile",
     name: " Palestine Mobile Application",
-    description: "Developed using Java and XML with a theme around Palestine.",
+    description:
+      "Développée en utilisant Java et XML avec un thème centré sur la Palestine.",
     link: "/",
     github: "/",
   },
@@ -63,11 +64,11 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left  mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start ">
           <h2 className="section-title mb-4 ">Latest Projects</h2>
           <p className="subtitle mb-8 ">
-            Explore the fusion of creativity and technology in my latest
-            projects.
+            Découvrez la fusion de la créativité et de la technologie à travers
+            mes derniers projets.
           </p>
           <Link href="/projects">
-            <Button>All projects</Button>
+            <Button>Tous les projets</Button>
           </Link>
         </div>
         {/* slider */}
