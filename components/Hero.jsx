@@ -63,7 +63,7 @@ const Hero = () => {
               containerStyles="absolute top-[20%] -left-[11rem]  "
               icon={<RiBriefcase4Fill />}
               endCountNum={1}
-              badgeText="Years Of Experience"
+              badgeText=" an d'expérience"
             />
             {/* badge 2 */}
             <Badge
@@ -71,7 +71,7 @@ const Hero = () => {
               icon={<RiTodoFill />}
               endCountNum={50}
               endCountText="+"
-              badgeText="Finished projects"
+              badgeText="Projets terminés"
             />
             {/* badge 3 */}
             <Badge
@@ -79,7 +79,7 @@ const Hero = () => {
               icon={<RiCodeBoxFill />}
               endCountNum={20}
               endCountText="+"
-              badgeText="Tech Skills"
+              badgeText="Projets terminés"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 "></div>
             <DevImg

@@ -82,7 +82,7 @@ const MyBlog = () => {
     <section className="flex flex-col justify-between min-h-screen">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
-          My Blog
+          Mon blog
         </h2>
         <Tabs
           defaultValue={selectedCategory}

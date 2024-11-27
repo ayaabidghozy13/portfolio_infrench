@@ -10,7 +10,7 @@ const Form = () => {
     <form className="flex flex-col gap-y-4 ">
       {/* input */}
       <div className="relative flex items-center">
-        <Input placeholder="Full Name" type="name" id="name" />
+        <Input placeholder="nom et prénom" type="name" id="name" />
         <User className="absolute right-6" size={20} />
       </div>
       {/* input */}
@@ -21,8 +21,8 @@ const Form = () => {
       {/* textarea */}
       <div className="relative flex items-center">
         <Textarea
-          placeholder="Type your message here..."
-          className="resize-none"
+          placeholder="Tapez votre message ..."
+          className="redimensionner-aucun"
           name="messages"
           type="text"
           id="text"
