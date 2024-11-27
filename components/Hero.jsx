@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
               Développeur IoT et logiciel
             </div>
-            <h1 class="h1 mb-4">Hello, je m'appelle Aya Abid Ghozy</h1>
+            <h1 class="h1 mb-4">Bonjour, je m'appelle Aya Abid Ghozy</h1>
             <p class="subtitle max-w-[490px] mx-auto xl:mx-0">
               Étudiante passionnée en ingénierie IoT avec une expérience
               pratique sur les plateformes IoT et une solide maîtrise de HTML,

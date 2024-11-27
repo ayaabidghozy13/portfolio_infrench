@@ -21,7 +21,7 @@ const blogData = [
     link: "https://www.linkedin.com/posts/deadlymind_understand-how-backend-system-work-part-1-activity-7186217629181751296-4Uld?utm_source=share&utm_medium=member_desktop",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Backend", "Programmation"],
+    tags: ["Dévelopment", "Backend", "Programmation"],
   },
   {
     id: 2,
@@ -34,20 +34,20 @@ const blogData = [
     link: "/blog/frontend",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Frontend", "Web Design"],
+    tags: ["Dévelopment", "Frontend", "Web Design"],
   },
   {
     id: 3,
     imagePath: "/blog/full.png",
     altText: "Illustration du développement Full Stack",
-    name: " Development Full stack",
+    name: " Dévelopment Full stack",
     category: "Full Stack",
     description:
       "Maîtrisez à la fois le frontend et le backend du développement web pour créer des applications web complètes et performantes.",
     link: "/blog/fullstack",
     createdAt: "2024-03-26",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", " Applications Web"],
+    tags: ["Dévelopment", "Full Stack", " Applications Web"],
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ const blogData = [
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7188400972086312960/",
     createdAt: "2024-04-23",
     author: "ayaabidghozy",
-    tags: ["Development", "Full Stack", " Applications web"],
+    tags: ["Dévelopment", "Full Stack", " Applications web"],
   },
 ];
 
